@@ -1,0 +1,103 @@
+body {  
+    font-family: Arial, sans-serif;  body {  
+    background-color: #f4f4f4; 
+    color: #333;
+}  
+
+h1 {  
+    color: #0066cc; 
+}  
+    background-color: #2d2d44;  
+    color: #ffffff;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+.container {  
+    max-width: 800px;  
+    margin: 0 auto;  
+    padding: 20px;  
+}  
+
+.header {  
+    text-align: center;  
+    margin-bottom: 20px;  
+}  
+
+.profile-img {  
+    border-radius: 50%;  
+    width: 150px;  
+    height: 150px;  
+    border: 2px solid #4CAF50;  
+}  
+
+h1 {  
+    font-size: 2.5em;  
+    margin: 10px 0;  
+}  
+
+h2 {  
+    font-size: 1.2em;  
+    margin: 10px 0;  
+    color: #bbb;  
+}  
+
+.info {  
+    background-color: #2e2e3a;  
+    padding: 15px;  
+    border-radius: 10px;  
+    line-height: 1.6;  
+}  
+
+.details {  
+    margin-top: 20px;  
+}  
+
+.job-list {  
+    margin-top: 10px;  
+}  
+
+.job-item {  
+    background-color: #4CAF50;  
+    padding: 10px;  
+    margin: 5px 0;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    transition: background-color 0.3s;  
+}  
+
+.job-item:hover {  
+    background-color: #45a049;  
+}  
+
+.job-info {  
+    padding: 10px;  
+    margin: 5px 0;  
+    background-color: #3c3c4a;  
+    border-radius: 5px;  
+    display: none;  
+    opacity: 0;  
+    transition: opacity 0.5s ease;  
+}  
+
+.job-info.show {  
+    display: block;  
+    opacity: 1;  
+}
+
+.meus-contatos {  
+    display: flex;  
+    justify-content: center;   
+    align-items: center;  
+    margin: 20px; 
+}  
+
+.meus-contatos ul {  
+    list-style-type: none; 
+    padding: 0;  
+}  
+
+.meus-contatos li {  
+    margin: 10px 0; 
+    text-align: center; 
+}
